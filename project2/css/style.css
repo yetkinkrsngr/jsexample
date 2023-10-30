@@ -10,12 +10,13 @@ ul {
 ul li {
   cursor: pointer;
   position: relative;
+  left: -30px;
+  width: 102%;
   padding: 12px 8px 12px 40px;
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
   list-style-type: none;
-
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -59,7 +60,6 @@ ul li.checked::before {
 .close:hover {
   background-color: #f78501;
   color: white;
-
 }
 
 .header {
@@ -100,6 +100,7 @@ input {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  border: none;
 }
 
 .button:hover {
